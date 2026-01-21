@@ -8,6 +8,7 @@ For environment constraint export run `conda env export --no-builds > environmen
 
 # Project structure
 
+```
 thesis_project/
 ├── data/                  # NYC TLC / Ecuador Data
 ├── src/                   # RUST CODE (Data ingestion/processing)
@@ -22,3 +23,4 @@ thesis_project/
 │   └── 02_training_demo.ipynb   # Imports 'models', runs training, plots loss
 ├── environment.yml        # Your frozen environment
 └── README.md
+```
